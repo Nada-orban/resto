@@ -1,0 +1,228 @@
+*{
+    box-sizing: border-box;
+}
+:root{
+    --primary-color:#f34949;
+    --backGround-color:#f7f8f9;
+}
+html {
+    overflow-x: hidden; }
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #000;
+    background-color: #f4ede5; }
+
+.button-style{
+    text-decoration-line: none;
+    color: white;
+    background-color: #f34949;
+    border-radius: 50px;
+    padding: 10px 30px;
+    font-weight: bold;
+    
+
+}
+.button-style:hover{
+    color:white;
+    background-color:red;
+}
+.primary-color{
+    color: var(--primary-color);
+}
+h2{
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+}
+h5{
+    color: var(--primary-color);
+}
+h3{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+
+
+
+
+
+/* start navbar */
+.navbar .navbar-brand img{
+    width: 130px;
+    height: 50px;
+    
+}
+
+@media screen and (min-width:992px) {
+    .navbar .navbar-brand{
+        position: absolute;
+        left: 50%;
+        margin-left: -100px;
+    }
+    .dropdown:hover .dropdown-menu{
+        display: block;
+        
+    
+    }
+    .nav-link.dropdown-toggle:hover{
+        color: red;
+    }
+    .container-fluid {
+        padding: 30px 30px;
+    }
+
+    
+}
+
+.navbar-nav .nav-link{
+    color: black;
+}
+.navbar-nav .nav-link:hover{
+    color: red;
+}
+
+.navbar-nav .dropdown-menu{
+    border-style: none;
+    border-bottom:2px solid red;
+    box-shadow:   -2px 0px 10px  #ff000033;
+}
+.left-side{
+    margin-left: 100px;
+}
+
+/* end navbar */
+
+
+
+
+/* start carousel-section */
+.carousel-section h1{
+    font-size: 60px;
+    
+}
+.icons .icon-box-middle{
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+.icons i{
+    font-size:x-large;
+    
+}
+
+
+
+/* end carousel-section */
+
+/* <!-- start special dishes --> */
+.special-dishes h1{
+    font-weight: bold;
+    font-size:200px ;
+    position: relative;
+    
+}
+.special-dishes h1::after{
+    content: "";
+    position: absolute;
+    top: -20px;
+    margin-left: 20px;
+    width: 200px;
+    height: 50px;
+    border-bottom: 2px solid gray;
+    
+}
+/* <!-- end special dishes --> */
+
+/* start menu */
+.box{
+    padding-bottom: 15px;
+    padding-top: 10px;
+    border-bottom: 1px dashed rgba(128, 128, 128, 0.541);
+    margin-bottom: 10px;
+}
+.box img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.box .box-price{
+    padding-top: 10px;
+}
+
+/* end menu */
+
+
+
+
+/* start testimony */
+
+/* end testimony */
+
+/* start team */
+.team .chef-box{
+    position: relative;
+    text-align: center;
+    
+}
+.team .chef-box .chef-info{
+    position: absolute;
+    background-color: white;
+    color: black;
+    left: 50%;
+    transform: translatex(-50%);
+    bottom: 20px;
+    padding: 10px 20px;
+    width: 90%;
+    transition: .5s ;
+    height: 100px;
+    cursor: pointer;
+    
+    
+    
+}
+
+
+.team .chef-box .chef-info .chef-connects{
+    visibility: hidden;
+    
+    
+}
+.team .chef-box .chef-info:hover{
+    height: 25%;
+
+}
+.team .chef-box .chef-info:hover .chef-connects{
+    visibility: visible;
+    transition: .3s;
+    cursor: pointer;
+}
+
+/* end team */
+
+
+/* start booking */
+.booking{
+    min-width: 100%;
+    min-height: 100%;
+    background-image: url("../img/reservation-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+/* end booking */
+
+
+/* start footer */
+footer img{
+    width: 130px;
+    height: 50px;
+}
+/* end footer */
+
+
+
+
+

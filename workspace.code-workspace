@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "."
+	},
+	{
+		"path": "../../tasks/Resto Free Website Template - Free-CSS.com"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "resto"
+  }
+}
